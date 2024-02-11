@@ -1,0 +1,33 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  font-weight: 300;
+  white-space: break-spaces;
+  margin: 1rem;
+}
+
+p {
+  max-width: 60ch;
+}
+
+img {
+  margin-bottom: 1rem;
+  max-height: 80vh;
+  max-width: 90vw;
+}
+
+.loading {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
